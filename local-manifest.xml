@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
             
-    <remote name="god-goku"
+    <remote name="Goku"
                       fetch="https://github.com/god-goku" />
             
     <!-- Sync trees -->
-          <project path="device/asus/X00TD" name="device_asus_X00TD" remote="god-goku" revision="arcana" clone-depth="1" />
-          <project path="device/asus/sdm660-common" name="device_asus_sdm660-common_snow" remote="god-goku" revision="twelve" clone-depth="1" />
-          <project path="vendor/asus" name="vendor_asus_X00TD" remote="god-goku" revision="twelve" clone-depth="1" />
-          <project path="kernel/asus/sdm660" name="skywalker" remote="god-goku" revision="r6/hmp" clone-depth="1" />
+          <project path="device/asus/X00TD" name="device_asus_X00TD-1" remote="Goku" revision="blaze" clone-depth="1" />
+          <project path="device/asus/sdm660-common" name="device_asus_sdm660-common_snow" remote="Goku" revision="twelve" clone-depth="1" />
+          <project path="vendor/asus" name="vendor_asus_X00TD" remote="Goku" revision="twelve" clone-depth="1" />
+          <project path="kernel/asus/sdm660" name="skywalker" remote="Goku" revision="r6/hmp" clone-depth="1" />
   
 </manifest>
