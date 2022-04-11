@@ -15,7 +15,7 @@
 
  <!-- Common Tree -->
  <project path="device/asus/sdm660-common" 
-          name="device_asus_sdm660-common" 
+          name="device_asus_sdm660-common_snow" 
           remote="Goku" 
           revision="arcana" />
 
