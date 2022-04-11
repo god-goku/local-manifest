@@ -9,7 +9,7 @@
 
  <!-- Device Tree -->
  <project path="device/asus/X00TD" 
-          name="device_asus_X00TD-1" 
+          name="device_asus_X00TD" 
           remote="Goku" 
           revision="arcana" /> 
 
