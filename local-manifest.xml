@@ -27,7 +27,7 @@
 
  <!-- Kernel Tree -->
  <project path="kernel/asus/sdm660" 
-          name="android_kernel_asus_sdm660-1" 
+          name="skywalker" 
           remote="Goku" 
           revision="r6/hmp" />
 
