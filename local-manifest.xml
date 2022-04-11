@@ -1,13 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-            
-    <remote name="Goku"
-    fetch="https://github.com/god-goku" />
-            
-    <!-- Sync trees -->
-          <project path="device/asus/X00TD" name="device_asus_X00TD-1" remote="Goku" revision="blaze" clone-depth="1" />
-          <project path="device/asus/sdm660-common" name="device_asus_sdm660-common_snow" remote="Goku" revision="blaze" clone-depth="1" />
-          <project path="vendor/asus" name="vendor_asus_X00TD" remote="Goku" revision="blaze" clone-depth="1" />
-          <project path="kernel/asus/sdm660" name="skywalker" remote="Goku" revision="r6/hmp" clone-depth="1" />
-  
+
+ <!-- Remotes -->
+ <remote name="Goku" 
+         fetch="https://github.com/god-goku" />
+
+ <!-- Trees -->
+
+ <!-- Device Tree -->
+ <project path="device/asus/X00TD" 
+          name="device_asus_X00TD-1" 
+          remote="Goku" 
+          revision="arcana" /> 
+
+ <!-- Common Tree -->
+ <project path="device/asus/sdm660-common" 
+          name="device_asus_sdm660-common" 
+          remote="Goku" 
+          revision="arcana" />
+
+ <!-- Vendor Tree -->
+ <project path="vendor/asus" 
+          name="vendor_asus_X00TD" 
+          remote="Goku" 
+          revision="arcana" />
+
+ <!-- Kernel Tree -->
+ <project path="kernel/asus/sdm660" 
+          name="android_kernel_asus_sdm660-1" 
+          remote="Goku" 
+          revision="r6/hmp" />
+
+
 </manifest>
