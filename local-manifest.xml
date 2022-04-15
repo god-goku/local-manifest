@@ -5,7 +5,7 @@
     fetch="https://github.com/god-goku" />
             
     <!-- Sync trees -->
-          <project path="device/asus/X00TD" name="device_asus_X00TD-1" remote="Goku" revision="blaze" clone-depth="1" />
+          <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Goku" revision="blaze" clone-depth="1" />
           <project path="device/asus/sdm660-common" name="device_asus_sdm660-common_snow" remote="Goku" revision="blaze" clone-depth="1" />
           <project path="vendor/asus" name="vendor_asus_X00TD" remote="Goku" revision="blaze" clone-depth="1" />
           <project path="kernel/asus/sdm660" name="skywalker" remote="Goku" revision="r6/hmp" clone-depth="1" />
