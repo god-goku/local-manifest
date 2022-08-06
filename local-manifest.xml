@@ -4,6 +4,8 @@
  <!-- Remotes -->
  <remote name="sh" 
          fetch="https://github.com/SharmagRit" />
+ <remote name="sh2" 
+         fetch="https://gitlab.com/SharmagRit" />
 
  <!-- Trees -->
 
@@ -34,7 +36,7 @@
  <!-- Vendor -->
  <project path="vendor/xiaomi/veux" 
           name="vendor_xiaomi_veux" 
-          remote="sh" 
+          remote="sh2" 
           revision="12.1" />
 
 <!-- Hals -->
