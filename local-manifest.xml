@@ -40,13 +40,13 @@
           revision="12.1" />
 
 <!-- Hals -->
-<remove-project name="hardware_qcom-caf_sm8350_display" />
+<remove-project name="LineageOS/android_hardware_qcom_display" />
 <project name="hardware_qcom-caf_sm8350_display" 
          path="hardware/qcom-caf/sm8350/display"
          remote="sh" 
          revision="twelve" />
 
-<remove-project name="hardware_qcom-caf_sm8350_audio" />
+<remove-project name="LineageOS/android_hardware_qcom_audio" />
 <project name="hardware_qcom-caf_sm8350_audio" 
          path="hardware/qcom-caf/sm8350/audio"
          remote="sh" 
