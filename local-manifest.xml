@@ -1,13 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-            
-    <remote name="Goku"
-    fetch="https://github.com/god-goku" />
-            
-    <!-- Sync trees -->
-          <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Goku" revision="blaze" clone-depth="1" />
-          <project path="device/asus/sdm660-common" name="device_asus_sdm660-common_snow" remote="Goku" revision="blaze" clone-depth="1" />
-          <project path="vendor/asus" name="vendor_asus_X00TD" remote="Goku" revision="blaze" clone-depth="1" />
-          <project path="kernel/asus/sdm660" name="skywalker" remote="Goku" revision="r6/hmp" clone-depth="1" />
-  
+
+ <!-- Remotes -->
+ <remote name="sh" 
+         fetch="https://github.com/SharmagRit" />
+
+ <!-- Trees -->
+
+ <!-- Device Tree -->
+ <project path="device/xiaomi/veux" 
+          name="device_xiaomi_veux" 
+          remote="sh" 
+          revision="rice" /> 
+
+ <!-- Kernel Tree -->
+ <project path="device/xiaomi/veux-kernel" 
+          name="device_xiaomi_veux-kernel" 
+          remote="sh" 
+          revision="12.1" />
+
+ <!-- Kernel Tree2 -->
+ <project path="kernel/xiaomi/veux-headers" 
+          name="android_kernel_xiaomi_veux-headers" 
+          remote="sh" 
+          revision="12.1" />
+
+ <!-- Hardware -->
+ <project path="hardware/xiaomi" 
+          name="android_hardware_xiaomi" 
+          remote="sh" 
+          revision="12.1" />
+
+ <!-- Vendor -->
+ <project path="vendor/xiaomi/veux" 
+          name="vendor_xiaomi_veux" 
+          remote="sh" 
+          revision="12.1" />
+
+<!-- Hals -->
+<remove-project name="LineageOS/android_hardware_qcom_display" />
+<project name="hardware_qcom-caf_sm8350_display" 
+         path="hardware/qcom-caf/sm8350/display"
+         remote="sh" 
+         revision="twelve" />
+
+<remove-project name="hardware/qcom-caf/sm8350/audio" />
+<project name="hardware_qcom-caf_sm8350_audio" 
+         path="hardware/qcom-caf/sm8350/audio"
+         remote="sh" 
+         revision="twelve" />
+
+
 </manifest>
