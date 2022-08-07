@@ -11,7 +11,7 @@
 
  <!-- Device Tree -->
  <project path="device/xiaomi/veux" 
-          name="device_xiaomi_veux" 
+          name="android_device_xiaomi_veux" 
           remote="me" 
           revision="rice" /> 
 
@@ -23,7 +23,7 @@
 
  <!-- Kernel Tree2 -->
  <project path="kernel/xiaomi/veux-headers" 
-          name="android_kernel_xiaomi_veux-headers" 
+          name="kernel_xiaomi_veux-headers" 
           remote="me" 
           revision="twelve" />
 
