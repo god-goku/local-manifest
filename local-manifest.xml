@@ -31,7 +31,7 @@
  <project path="hardware/xiaomi" 
           name="android_hardware_xiaomi" 
           remote="me" 
-          revision="12.1" />
+          revision="twelve" />
 
  <!-- Vendor -->
  <project path="vendor/xiaomi/veux" 
