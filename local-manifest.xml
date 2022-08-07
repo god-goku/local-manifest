@@ -2,8 +2,8 @@
 <manifest>
 
  <!-- Remotes -->
- <remote name="sh" 
-         fetch="https://github.com/SharmagRit" />
+ <remote name="me" 
+         fetch="https://github.com/god-goku" />
  <remote name="sh2" 
          fetch="https://gitlab.com/SharmagRit" />
 
@@ -12,25 +12,25 @@
  <!-- Device Tree -->
  <project path="device/xiaomi/veux" 
           name="device_xiaomi_veux" 
-          remote="sh" 
+          remote="me" 
           revision="rice" /> 
 
  <!-- Kernel Tree -->
  <project path="device/xiaomi/veux-kernel" 
           name="device_xiaomi_veux-kernel" 
-          remote="sh" 
+          remote="me" 
           revision="twelve" />
 
  <!-- Kernel Tree2 -->
  <project path="kernel/xiaomi/veux-headers" 
           name="android_kernel_xiaomi_veux-headers" 
-          remote="sh" 
+          remote="me" 
           revision="twelve" />
 
  <!-- Hardware -->
  <project path="hardware/xiaomi" 
           name="android_hardware_xiaomi" 
-          remote="sh" 
+          remote="me" 
           revision="12.1" />
 
  <!-- Vendor -->
@@ -43,13 +43,13 @@
 <remove-project name="LineageOS/android_hardware_qcom_display" />
 <project name="hardware_qcom-caf_sm8350_display" 
          path="hardware/qcom-caf/sm8350/display"
-         remote="sh" 
+         remote="me" 
          revision="twelve" />
 
 <remove-project name="LineageOS/android_hardware_qcom_audio" />
 <project name="hardware_qcom-caf_sm8350_audio" 
          path="hardware/qcom-caf/sm8350/audio"
-         remote="sh" 
+         remote="me" 
          revision="twelve" />
 
 
