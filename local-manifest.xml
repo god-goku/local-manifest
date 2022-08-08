@@ -41,11 +41,5 @@
          remote="me" 
          revision="twelve" />
 
-<remove-project name="LineageOS/android_hardware_qcom_audio" />
-<project name="hardware_qcom-caf_sm8350_audio" 
-         path="hardware/qcom-caf/sm8350/audio"
-         remote="me" 
-         revision="twelve" />
-
 
 </manifest>
