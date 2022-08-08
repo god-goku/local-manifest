@@ -32,7 +32,7 @@
  <project path="vendor/xiaomi/veux" 
           name="vendor_xiaomi_veux" 
           remote="sh2" 
-          revision="12.1" />
+          revision="twelve" />
 
 <!-- Hals -->
 <remove-project name="LineageOS/android_hardware_qcom_display" />
