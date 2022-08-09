@@ -34,6 +34,12 @@
           remote="sh2" 
           revision="twelve" />
 
+ <!-- Hardware -->
+ <project name="android_hardware_xiaomi"
+          path="hardware/xiaomi"
+          remote="me" 
+          revision="snow" />
+
 <!-- Hals -->
 <remove-project name="LineageOS/android_hardware_qcom_display" />
 <project name="hardware_qcom-caf_sm8350_display" 
