@@ -28,7 +28,7 @@
 
  <!-- Vendor -->
  <project path="vendor/xiaomi/veux" 
-          name="vendor_xiaomi_veux" 
+          name="android_vendor_xiaomi_veux" 
           remote="me" 
           revision="13" />
 
@@ -36,7 +36,7 @@
  <project name="android_hardware_xiaomi"
           path="hardware/xiaomi"
           remote="me" 
-          revision="lineage-19.1" />
+          revision="twelve" />
 
 <!-- Hals -->
 <remove-project name="LineageOS/android_hardware_qcom_display" />
