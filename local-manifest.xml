@@ -11,7 +11,7 @@
  <project path="device/xiaomi/veux" 
           name="android_device_xiaomi_veux" 
           remote="me" 
-          revision="1rice" /> 
+          revision="rice" /> 
 
  <!-- Kernel Tree -->
  <project path="device/xiaomi/veux-kernel" 
