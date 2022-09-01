@@ -23,7 +23,7 @@
  <project path="vendor/xiaomi/veux" name="android_vendor_xiaomi_veux" remote="me" revision="13" />
 
  <!-- Hardware -->
- <project name="android_hardware_xiaomi" path="hardware/xiaomi" remote="me" evision="twelve" />
+ <project name="android_hardware_xiaomi" path="hardware/xiaomi" remote="me" evision="lineage-19.1" />
 
 <!-- Hals -->
 <remove-project name="LineageOS/android_hardware_qcom_display" />
