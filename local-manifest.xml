@@ -3,10 +3,7 @@
 
  <!-- Remotes -->
  <remote name="me" fetch="https://github.com/god-goku" />
- <remote name="Amritorock" fetch="https://github.com/Amritorock" />
- <remote name="arrow" fetch="https://github.com/ArrowOS-Devices" />
- <remote name="arw" fetch="https://gitlab.com/arrowos-project" />
- <remote name="bheatleyyy" fetch="https://github.com/bheatleyyy" />
+ <remote name="githab" fetch="https://github.com" />
 
  <!-- Trees -->
 
@@ -27,12 +24,13 @@
 
 <!-- Hals -->
 <remove-project name="LineageOS/android_hardware_qcom_display" />
+<project name="hardware_qcom-caf_sm8350_display" path="hardware/qcom-caf/sm8350/display" remote="me" revision="twelve" />  
 <remove-project name="RiceDroid/android_frameworks_base" /> 
-<remove-project name="RiceDroid/android_hardware_google_pixel-sepolicy" />
-<project name="hardware_qcom-caf_sm8350_display" path="hardware/qcom-caf/sm8350/display" remote="me" revision="twelve" />
-<project path="frameworks/base" name="android_frameworks_base" remote="Amritorock" revision="twelve" />
-<project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" remote="bheatleyyy" revision="r5x" />
-<project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="arw" revision="master" />  
-<project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="arrow" revision="arrow-11.0" />  
+<project remote="githab" name="bdjmfoe/rice_frameworks_base" revision="twelve" path="frameworks/base" /> 
+<remove-project name="RiceDroid/android_packages_apps_RiceDroidSettings" /> 
+<project remote="githab" name="bdjmfoe/RiceDroidSettings" revision="twelve" path="packages/apps/crDroidSettings" /> 
+<remove-project name="RiceDroid/android_vendor_rice" /> 
+<project remote="githab" name="bdjmfoe/rice_vendor" revision="twelve" path="vendor/lineage" /> 
+<project remote="githab" name="bdjmfoe/clang-r416183b1" revision="main" path="prebuilts/clang/host/linux-x86/clang-r416183b1" />
 
 </manifest>
