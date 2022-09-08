@@ -17,7 +17,7 @@
  <project path="kernel/xiaomi/veux-headers" name="kernel_xiaomi_veux-headers" remote="me" revision="twelve" />
 
  <!-- Vendor -->
- <project path="vendor/xiaomi/veux" name="android_vendor_xiaomi_veux" remote="me" revision="13" />
+ <project path="vendor/xiaomi/veux" name="kleidione/vendor_xiaomi_veux" remote="githab" revision="staging/thirteen" />
 
  <!-- Hardware -->
  <project name="android_hardware_xiaomi" path="hardware/xiaomi" remote="me" evision="lineage-19.1" />
