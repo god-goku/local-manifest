@@ -8,7 +8,7 @@
  <!-- Trees -->
 
  <!-- Device Tree -->
- <project path="device/xiaomi/veux" name="android_device_xiaomi_veux" remote="me" revision="test" /> 
+ <project path="device/xiaomi/veux" name="monu70152/android_device_xiaomi_veux" remote="me" revision="cherry" /> 
 
  <!-- Kernel Tree -->
  <project path="device/xiaomi/veux-kernel" name="device_xiaomi_veux-kernel" remote="me" revision="twelve" />
@@ -17,7 +17,7 @@
  <project path="kernel/xiaomi/veux-headers" name="kernel_xiaomi_veux-headers" remote="me" revision="twelve" />
 
  <!-- Vendor -->
- <project path="vendor/xiaomi/veux" name="kleidione/vendor_xiaomi_veux" remote="githab" revision="staging/thirteen" />
+ <project path="vendor/xiaomi/veux" name="monu70152/android_vendor_xiaomi_veux" remote="githab" revision="main" />
 
  <!-- Hardware -->
  <project name="android_hardware_xiaomi" path="hardware/xiaomi" remote="me" evision="lineage-19.1" />
@@ -25,12 +25,5 @@
 <!-- Hals -->
 <remove-project name="LineageOS/android_hardware_qcom_display" />
 <project name="hardware_qcom-caf_sm8350_display" path="hardware/qcom-caf/sm8350/display" remote="me" revision="twelve" />  
-<remove-project name="RiceDroid/android_frameworks_base" /> 
-<project remote="githab" name="bdjmfoe/rice_frameworks_base" revision="twelve" path="frameworks/base" /> 
-<remove-project name="RiceDroid/android_packages_apps_RiceDroidSettings" /> 
-<project remote="githab" name="bdjmfoe/RiceDroidSettings" revision="twelve" path="packages/apps/crDroidSettings" /> 
-<remove-project name="RiceDroid/android_vendor_rice" /> 
-<project remote="githab" name="bdjmfoe/rice_vendor" revision="twelve" path="vendor/lineage" /> 
-<project remote="githab" name="bdjmfoe/clang-r416183b1" revision="main" path="prebuilts/clang/host/linux-x86/clang-r416183b1" />
 
 </manifest>
