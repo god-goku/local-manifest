@@ -20,6 +20,7 @@
  <project path="vendor/xiaomi/veux" name="monu70152/android_vendor_xiaomi_veux" remote="githab" revision="main" />
 
  <!-- Hardware -->
+ <remove-project name="android_hardware_xiaomi" />
  <project name="android_hardware_xiaomi" path="hardware/xiaomi" remote="me" evision="lineage-19.1" />
 
 <!-- Hals -->
