@@ -8,7 +8,7 @@
  <!-- Trees -->
 
  <!-- Device Tree -->
- <project path="device/xiaomi/veux" name="monu70152/android_device_xiaomi_veux" remote="me" revision="cherry" /> 
+ <project path="device/xiaomi/veux" name="monu70152/android_device_xiaomi_veux" remote="githab" revision="cherry" /> 
 
  <!-- Kernel Tree -->
  <project path="device/xiaomi/veux-kernel" name="device_xiaomi_veux-kernel" remote="me" revision="twelve" />
