@@ -21,7 +21,7 @@
 
  <!-- Hardware -->
  <remove-project name="android_hardware_xiaomi" />
- <project name="monu70152/android_hardware_xiaomi" path="hardware/xiaomi" remote="githab" evision="snow" />
+ <project name="SharmagRit/android_hardware_xiaomi" path="hardware/xiaomi" remote="githab" revision="lineage-20.0" />
 
 <!-- Hals -->
 <remove-project name="LineageOS/android_hardware_qcom_display" />
