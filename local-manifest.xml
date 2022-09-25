@@ -20,7 +20,7 @@
  <project path="vendor/xiaomi/veux" name="monu70152/android_vendor_xiaomi_veux" remote="githab" revision="main" />
 
 <!-- Hals -->
-<remove-project name="LineageOS/android_hardware_qcom_display" />
+<remove-project name="PixelExperience/android_hardware_qcom_display" />
 <project name="hardware_qcom-caf_sm8350_display" path="hardware/qcom-caf/sm8350/display" remote="me" revision="twelve" />  
 
 </manifest>
