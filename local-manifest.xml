@@ -20,7 +20,7 @@
  <project path="vendor/xiaomi/veux" name="monu70152/android_vendor_xiaomi_veux" remote="githab" revision="main" />
 
 <!-- Hals -->
-<remove-project name="PixelExperience/android_hardware_qcom_display" />
-<project name="hardware_qcom-caf_sm8350_display" path="hardware/qcom-caf/sm8350/display" remote="me" revision="twelve" />  
+<remove-project name="platform/external/f2fs-tools" />
+<project name="RiceDroid/android_external_f2fs-tools" path="external/f2fs-tools" remote="githab" revision="thirteen" />  
 
 </manifest>
