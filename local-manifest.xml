@@ -8,7 +8,7 @@
  <!-- Trees -->
 
  <!-- Device Tree -->
- <project path="device/xiaomi/veux" name="monu70152/android_device_xiaomi_veux" remote="githab" revision="13" /> 
+ <project path="device/xiaomi/veux" name="CherishOS-Devices/android_device_xiaomi_veux" remote="githab" revision="tiramisu" /> 
 
  <!-- Kernel Tree -->
  <project path="device/xiaomi/veux-kernel" name="device_xiaomi_veux-kernel" remote="me" revision="twelve" />
@@ -19,8 +19,8 @@
  <!-- Vendor -->
  <project path="vendor/xiaomi/veux" name="monu70152/android_vendor_xiaomi_veux" remote="githab" revision="main" />
 
-<!-- Hals -->
-<remove-project name="platform/external/f2fs-tools" />
-<project name="RiceDroid/android_external_f2fs-tools" path="external/f2fs-tools" remote="githab" revision="thirteen" />  
+ <!-- Hals -->
+ <remove-project name="platform/external/f2fs-tools" />
+ <project name="RiceDroid/android_external_f2fs-tools" path="external/f2fs-tools" remote="githab" revision="thirteen" />  
 
 </manifest>
