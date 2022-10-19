@@ -19,8 +19,4 @@
  <!-- Vendor -->
  <project path="vendor/xiaomi/veux" name="monu70152/android_vendor_xiaomi_veux" remote="githab" revision="main" />
 
- <!-- Hals -->
- <remove-project name="platform/external/f2fs-tools" />
- <project name="RiceDroid/android_external_f2fs-tools" path="external/f2fs-tools" remote="githab" revision="thirteen" />  
-
 </manifest>
