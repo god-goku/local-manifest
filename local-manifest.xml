@@ -19,4 +19,8 @@
  <!-- Vendor -->
  <project path="vendor/xiaomi/veux" name="monu70152/android_vendor_xiaomi_veux" remote="githab" revision="main" />
 
+ <!-- complicate Things -->
+ <remove-project name="vendor/PixelLauncher" />
+ <project path="vendor/PixelLauncher" name="StudioKeys/vendor_PixelLauncher" remote="githab" revision="13" />
+
 </manifest>
