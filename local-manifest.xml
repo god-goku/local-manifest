@@ -4,7 +4,8 @@
  <!-- Remotes -->
  <remote name="me" fetch="https://github.com/god-goku" />
  <remote name="githab" fetch="https://github.com" />
-
+ <remote name="gitlub" fetch="https://gitlab.com" />
+ 
  <!-- Trees -->
 
  <!-- Device Tree -->
@@ -17,7 +18,7 @@
  <project path="kernel/xiaomi/veux-headers" name="kernel_xiaomi_veux-headers" remote="me" revision="twelve" />
 
  <!-- Vendor -->
- <project path="vendor/xiaomi/veux" name="monu70152/android_vendor_xiaomi_veux" remote="githab" revision="main" />
+ <project path="vendor/xiaomi/veux" name="monu70152/vendor_xiaomi_veux" remote="gitlub" revision="main" />
 
  <!-- complicate Things -->
  <remove-project name="vendor/PixelLauncher" />
