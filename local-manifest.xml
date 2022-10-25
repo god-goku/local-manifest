@@ -4,20 +4,20 @@
  <!-- Remotes -->
  <remote name="me" fetch="https://github.com/god-goku" />
  <remote name="githab" fetch="https://github.com" />
- <remote name="gitlub" fetch="https://gitlab.com" />
+ <remote name="gitlub" fetch="https://gitlab.com/monu70152" />
  
  <!-- Trees -->
 
  <!-- Device Tree -->
- <project path="device/xiaomi/veux" name="CherishOS-Devices/android_device_xiaomi_veux" remote="githab" revision="tiramisu" /> 
+ <project path="device/xiaomi/veux" name="android_device_xiaomi_veux" remote="gitlub" revision="tiramisu" /> 
 
  <!-- Kernel Tree -->
- <project path="device/xiaomi/veux-kernel" name="device_xiaomi_veux-kernel" remote="me" revision="twelve" />
+ <project path="device/xiaomi/veux-kernel" name="device_xiaomi_veux-kernel" remote="gitlub" revision="twelve" />
 
  <!-- Kernel Tree2 -->
- <project path="kernel/xiaomi/veux-headers" name="kernel_xiaomi_veux-headers" remote="me" revision="twelve" />
+ <project path="kernel/xiaomi/veux-headers" name="kernel_xiaomi_veux-headers" remote="gitlub" revision="staging/lineage-19.1" />
 
  <!-- Vendor -->
- <project path="vendor/xiaomi/veux" name="monu70152/android_vendor_xiaomi_veux" remote="gitlub" revision="A12" />
+ <project path="vendor/xiaomi/veux" name="android_vendor_xiaomi_veux" remote="gitlub" revision="A12" />
 
 </manifest>
