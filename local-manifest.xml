@@ -18,6 +18,6 @@
  <project path="kernel/xiaomi/veux-headers" name="kernel_xiaomi_veux-headers" remote="gitlub" revision="staging/lineage-19.1" />
 
  <!-- Vendor -->
- <project path="vendor/xiaomi/veux" name="android_vendor_xiaomi_veux" remote="gitlub" revision="A12" />
+ <project path="vendor/xiaomi/veux" name="android_vendor_xiaomi_veux" remote="gitlub" revision="A13" />
 
 </manifest>
