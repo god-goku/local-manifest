@@ -9,13 +9,13 @@
  <!-- Trees -->
 
  <!-- Device Tree -->
- <project path="device/xiaomi/veux" name="android_device_xiaomi_veux" remote="gitlub" revision="tiramisu" /> 
+ <project path="device/xiaomi/veux" name="CherishOS-Devices/android_device_xiaomi_veux" remote="githab" revision="tiramisu" /> 
 
  <!-- Kernel Tree -->
- <project path="device/xiaomi/veux-kernel" name="device_xiaomi_veux-kernel" remote="gitlub" revision="thirteen" />
+ <project path="device/xiaomi/veux-kernel" name="monu70152/device_xiaomi_veux-kernel" remote="githab" revision="thirteen" />
 
  <!-- Kernel Tree2 -->
- <project path="kernel/xiaomi/veux-headers" name="android_kernel_xiaomi_veux-headers" remote="gitlub" revision="staging/lineage-19.1" />
+ <project path="kernel/xiaomi/veux-headers" name="monu70152/android_kernel_xiaomi_veux-headers" remote="githab" revision="thirteen" />
 
  <!-- Vendor -->
  <project path="vendor/xiaomi/veux" name="android_vendor_xiaomi_veux" remote="gitlub" revision="A13" />
