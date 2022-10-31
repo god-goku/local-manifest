@@ -18,7 +18,7 @@
  <project path="kernel/xiaomi/veux-headers" name="monu70152/android_kernel_xiaomi_veux-headers" remote="githab" revision="thirteen" />
 
  <!-- Vendor -->
- <project path="vendor/xiaomi/veux" name="android_vendor_xiaomi_veux" remote="gitlub" revision="A13" />
+ <project path="vendor/xiaomi/veux" name="android_vendor_xiaomi_veux" remote="gitlub" revision="master" />
 
  <!-- GrapheneCamera -->
  <project path="device/xiaomi/veux/GrapheneCamera" name="bishwofic/GrapheneCamera" remote="githab" revision="main" />
