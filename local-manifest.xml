@@ -21,6 +21,6 @@
  <project path="vendor/xiaomi/veux" name="android_vendor_xiaomi_veux" remote="gitlub" revision="A13" />
 
  <!-- GrapheneCamera -->
- <project path="device/xiaomi/veux/GrapheneCamera" name="bishwofic/GrapheneCamera" remote="githab" revision="A13" />
+ <project path="device/xiaomi/veux/GrapheneCamera" name="bishwofic/GrapheneCamera" remote="githab" revision="main" />
 
 </manifest>
