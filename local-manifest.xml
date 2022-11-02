@@ -21,6 +21,6 @@
  <project path="vendor/xiaomi/veux" name="android_vendor_xiaomi_veux" remote="gitlub" revision="master" />
 
 <!-- (Clang) -->
-  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="githab" revision="master" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="gitlub" revision="master" />
 
 </manifest>
