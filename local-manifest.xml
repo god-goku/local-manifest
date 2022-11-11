@@ -10,7 +10,7 @@
  <!-- Trees -->
 
  <!-- Device Tree -->
- <project path="device/xiaomi/veux" name="CherishOS-Devices/android_device_xiaomi_veux" remote="githab" revision="tiramisu" /> 
+ <project path="device/xiaomi/veux" name="CherishOS-Devices/android_device_xiaomi_veux" remote="githab" revision="13" /> 
 
  <!-- Kernel Tree -->
  <project path="device/xiaomi/veux-kernel" name="monu70152/device_xiaomi_veux-kernel" remote="githab" revision="thirteen" />
