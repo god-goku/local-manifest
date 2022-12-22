@@ -7,21 +7,23 @@
  <remote name="gitlub" fetch="https://gitlab.com/monu70152" />
  <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
 
- <!-- Trees -->
-
  <!-- Device Tree -->
  <project path="device/xiaomi/veux" name="monu70152/android_device_xiaomi_veux" remote="githab" revision="klei" /> 
 
  <!-- Kernel Tree -->
  <project path="device/xiaomi/veux-kernel" name="monu70152/device_xiaomi_veux-kernel" remote="githab" revision="thirteen" />
 
- <!-- Kernel Tree2 -->
+ <!-- Kernel Header -->
  <project path="kernel/xiaomi/veux-headers" name="monu70152/android_kernel_xiaomi_veux-headers" remote="githab" revision="thirteen" />
 
  <!-- Vendor -->
  <project path="vendor/xiaomi/veux" name="android_vendor_xiaomi_veux" remote="gitlub" revision="03/12" />
 
-<!-- (Clang) -->
+<!-- Clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
 
+<!-- Replacement -->
+  <remove-project name="PixelExperience/hardware_qcom-caf_sm8350_display" />
+  <project path="hardware/qcom-caf/sm8350/display" name="SharmagRit/hardware_qcom-caf_sm8350_display" remote="githab" revision="twelve" />
+  
 </manifest>
