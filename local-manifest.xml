@@ -17,7 +17,7 @@
  <project path="kernel/xiaomi/veux-headers" name="android_kernel_xiaomi_veux-headers" remote="githab" revision="thirteen" />
 
  <!-- Vendor -->
- <project path="vendor/xiaomi/veux" name="android_vendor_xiaomi_veux" remote="gitlub" revision="13/01" />
+ <project path="vendor/xiaomi/veux" name="android_vendor_xiaomi_veux" remote="gitlub" revision="07/01" />
 
 <!-- Clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
