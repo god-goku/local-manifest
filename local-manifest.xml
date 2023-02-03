@@ -8,23 +8,23 @@
  <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
 
  <!-- Device Tree -->
- <project path="device/xiaomi/veux" name="android_device_xiaomi_veux" remote="githab" revision="klei" /> 
+ <project path="device/xiaomi/veux" name="android_device_xiaomi_veux" remote="gitlub" revision="a13" /> 
 
  <!-- Kernel Tree -->
- <project path="device/xiaomi/veux-kernel" name="anant-goel/device_xiaomi_veux-kernel" remote="github" revision="lineage-19.2" />
+ <project path="device/xiaomi/veux-kernel" name="device_xiaomi_veux-kernel" remote="gitlub" revision="13.0.5" />
 
  <!-- Kernel Header -->
- <project path="kernel/xiaomi/veux-headers" name="android_kernel_xiaomi_veux-headers" remote="githab" revision="thirteen" />
+ <project path="kernel/xiaomi/veux-headers" name="android_kernel_xiaomi_veux-headers" remote="gitlub" revision="thirteen" />
 
  <!-- Vendor -->
- <project path="vendor/xiaomi/veux" name="android_vendor_xiaomi_veux" remote="gitlub" revision="07/01" />
+ <project path="vendor/xiaomi/veux" name="vendor_xiaomi_veux" remote="gitlub" revision="03/02" />
 
 <!-- Clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
 
 <!-- Replacement -->
   <remove-project name="PixelExperience/hardware_qcom-caf_sm8350_display" />
-  <project path="hardware/qcom-caf/sm8350/display" name="SharmagRit/hardware_qcom-caf_sm8350_display" remote="github" revision="twelve" />
+  <project path="hardware/qcom-caf/sm8350/display" name="hardware_qcom-caf_sm8350_display" remote="gitlub" revision="twelve" />
   
 <!-- Launcher3 -->
   <project path="vendor/launcher3mod" name="helliscloser/vendor_launcher3" remote="github" revision="13" /> 
