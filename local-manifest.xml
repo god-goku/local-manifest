@@ -3,30 +3,25 @@
 
  <!-- Remotes -->
  <remote name="me" fetch="https://github.com/god-goku" />
- <remote name="githab" fetch="https://github.com/monu70152" />
- <remote name="gitlub" fetch="https://gitlab.com/monu70152" />
- <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
+ <remote name="clang" fetch="https://gitlab.com/ImSurajxD" />
 
  <!-- Device Tree -->
- <project path="device/xiaomi/veux" name="veux" remote="gitlub" revision="a13" /> 
+ <project path="device/xiaomi/veux" name="ve" remote="me" revision="cherish" /> 
 
  <!-- Kernel Tree -->
- <project path="device/xiaomi/veux-kernel" name="device_xiaomi_veux-kernel" remote="gitlub" revision="13.0.5" />
+ <project path="device/xiaomi/veux-kernel" name="vkt" remote="me" revision="thirteen" />
 
  <!-- Kernel Header -->
- <project path="kernel/xiaomi/veux-headers" name="android_kernel_xiaomi_veux-headers" remote="gitlub" revision="thirteen" />
+ <project path="kernel/xiaomi/sm6375" name="LineageOS/android_kernel_qcom_sm8350" remote="github" revision="lineage-20" />
 
  <!-- Vendor -->
- <project path="vendor/xiaomi/veux" name="vendor" remote="gitlub" revision="13.0.5" />
+ <project path="vendor/xiaomi/veux" name="vt" remote="me" revision="thirteen" />
 
 <!-- Clang -->
-  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" />
 
 <!-- Replacement -->
   <remove-project name="PixelExperience/hardware_qcom-caf_sm8350_display" />
-  <project path="hardware/qcom-caf/sm8350/display" name="hardware_qcom-caf_sm8350_display" remote="gitlub" revision="twelve" />
-  
-<!-- Launcher3 -->
-  <project path="vendor/launcher3mod" name="helliscloser/vendor_launcher3" remote="github" revision="13" /> 
+  <project path="hardware/qcom-caf/sm8350/display" name="hardware_qcom-caf_sm8350_display" remote="me" revision="twelve" />
 
 </manifest>
